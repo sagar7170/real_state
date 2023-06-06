@@ -1,0 +1,17 @@
+.com-container {
+  justify-content: space-around;
+}
+.com-container > img {
+  width: 11rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+@media (max-width: 640px) {
+  .com-container {
+    flex-direction: row;
+  }
+  .com-container > img {
+    width: 10rem;
+    height: 4rem;
+  }
+}

@@ -1,0 +1,45 @@
+.fo-container {
+  justify-content: space-between;
+}
+.fo-right {
+  margin-right: 6rem;
+}
+.fo-left {
+  margin-left: 8rem;
+}
+.fo-menu {
+  gap: 1rem;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .fo-container {
+    justify-content: center;
+  }
+  .fo-container > div {
+    align-self: center !important;
+    text-align: center;
+  }
+  .fo-left {
+    margin-right: 0;
+  }
+  .fo-left {
+    margin-left: 0;
+    justify-content: center;
+
+    text-align: center;
+  }
+  .fo-right .primaryText {
+    padding-left: 3.5rem;
+  }
+  .fo-right .secondaryText {
+    padding-left: 3.5rem;
+  }
+
+  .fo-right {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
